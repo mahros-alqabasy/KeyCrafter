@@ -1,5 +1,5 @@
 # KeyCrafter
-**Crafting secure keys tailored to your needs.****Forge unbreakable passwords with ease.**
+**Crafting secure keys tailored to your needs.**
 
 PassForge is a command-line password generator tool designed to create secure, customizable passwords. Built with portability and ease-of-use in mind, it supports multiple options to fine-tune the output for different security needs. Whether you're generating simple lowercase passwords or strong, mixed-character vault keys, PassForge has you covered.
 
