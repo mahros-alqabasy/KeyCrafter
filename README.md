@@ -1,7 +1,7 @@
 # KeyCrafter
 **Crafting secure keys tailored to your needs.**
 
-PassForge is a command-line password generator tool designed to create secure, customizable passwords. Built with portability and ease-of-use in mind, it supports multiple options to fine-tune the output for different security needs. Whether you're generating simple lowercase passwords or strong, mixed-character vault keys, PassForge has you covered.
+KeyCrafter is a command-line password generator tool designed to create secure, customizable passwords. Built with portability and ease-of-use in mind, it supports multiple options to fine-tune the output for different security needs. Whether you're generating simple lowercase passwords or strong, mixed-character vault keys, KeyCrafter has you covered.
 
 ---
 
@@ -16,7 +16,7 @@ PassForge is a command-line password generator tool designed to create secure, c
 ---
 
 ## 🛠️ Dependencies
-PassForge relies on a few common Unix utilities. Make sure these are installed on your system:
+KeyCrafter relies on a few common Unix utilities. Make sure these are installed on your system:
 
 - `shuf` (or `gshuf` on macOS)
 - `fold`
@@ -34,23 +34,23 @@ The script will automatically check for missing dependencies and notify the user
 ## 📦 Installation
 ```bash
 # Clone the repository
-$ git clone https://github.com/yourusername/passforge.git
+$ git clone https://github.com/mahros-alqabasy/KeyCrafter.git
 
 # Change directory
-$ cd passforge
+$ cd KeyCrafter
 
 # Make it executable
-$ chmod +x passwdgen.sh
+$ chmod +x keycrafter.sh
 
 # Run it
-$ ./passwdgen.sh [OPTIONS]
+$ ./keycrafter.sh [OPTIONS]
 ```
 
 ---
 
 ## 📋 Usage
 ```bash
-Usage: passwdgen [OPTIONS]
+Usage: keycrafter [OPTIONS]
 
 Password Generator Tool
 -----------------------
@@ -74,10 +74,10 @@ Options:
 ## 🧪 Examples
 ```bash
 # Generate a 12-character password with 3 special characters in uppercase
-$ ./passwdgen.sh -l 12 -L 3 -c upper
+$ ./keycrafter.sh -l 12 -L 3 -c upper
 
 # Generate a 10-character password without special characters in lowercase
-$ ./passwdgen.sh -S -l 10 -c lower
+$ ./keycrafter.sh -S -l 10 -c lower
 ```
 
 ---
@@ -93,5 +93,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ---
 
 ## ✨ Credits
-Created with ❤️ by [Your Name] – [@yourhandle](https://github.com/yourusername)
+Created with ❤️ by Mahros – [@alqabasy](https://github.com/mahros-alqabasy)
 
